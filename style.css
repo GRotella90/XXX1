@@ -1,0 +1,96 @@
+html {background-color: black;}
+
+h1 {
+    text-align: center;
+color: white;}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+}
+
+h4 {
+    color: white;
+    text-align: center;
+}
+
+li {
+    color: white;
+    text-align: center;
+}
+
+p {color: white;
+text-align:center;}
+
+a {
+    text-decoration: none; /* Removes the underline from anchor elements */
+    color: white; /* Sets the color of the link text */
+}
+
+a:hover {
+    font-size: 120%; /* Increase font size by 20% when the cursor hovers over the anchor */
+}
+.image {margin: 0 auto; display: block;}
+
+.h1special {font-size: 60px;}
+.h2special {font-size: 50px;}
+.pspecial {font-size: 2rem;}
+    
+#G1 {
+    width: 400px;
+    height: 300px; 
+    display: block;
+    margin: 0 auto;
+}
+
+    #V1 {
+        width: 500px;
+        height: 400px; 
+        display: block;
+        margin: 0 auto;}
+    
+
+    .container {
+        display: flex;
+        gap: 10px;
+       align-items: center;
+       justify-content: center;
+       margin-top: 30px;
+ 
+    }
+
+    .container2 {
+        display: flex;
+        gap: 10px;
+       align-items: center;
+       justify-content: center;
+ 
+    }
+    
+.divline {
+    background-color: red;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.video {    display: block;
+    margin: 0 auto;
+width: 600px;
+height: 400px;}
+
+.verginadanzantepic {
+    height: 400px;
+    width: 400px;
+}
+
+@media (max-width: 680px) {
+    .logo {
+        width: 100px; /* Set the desired width for smaller screens */
+        min-width: 80px; /* Add a minimum width for the logo */
+    }
+}
