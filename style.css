@@ -88,9 +88,26 @@ height: 400px;}
     width: 400px;
 }
 
-@media (max-width: 680px) {
-    .logo {
-        width: 100px; /* Set the desired width for smaller screens */
-        min-width: 80px; /* Add a minimum width for the logo */
+/* Media query for smaller screens (mobile phones) */
+@media (max-width: 768px) {
+    /* Adjustments for smaller screens */
+    .container, .container2 {
+        flex-direction: column; /* Stacks elements vertically on smaller screens */
+        gap: 20px; /* Increased gap between elements for better touch interaction */
+        align-items: center; /* Center-align items vertically */
+        justify-content: space-around; /* Distributes items evenly along the cross-axis */
+    }
+    .image {
+        width: 100%; /* Adjust image width to fit smaller screens */
+    }
+    .video, .verginadanzantepic {
+        width: 90%; /* Adjust width for smaller screens */
+    }
+    h1, h2, h3, h4, p, li {
+        text-align: center; /* Maintain centered text alignment */
+    }
+    #G1, #V1 {
+        width: 90%; /* Adjust width for smaller screens */
+        height: auto; /* Allow height to adjust proportionally */
     }
 }
